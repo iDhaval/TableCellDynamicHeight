@@ -11,13 +11,13 @@ class TableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
+    override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
     
-    func loadCell(data:(upper:String,lower:String)) {
+    func loadCell(_ data:(upper:String,lower:String)) {
         lblUpper.text = data.upper
         lblLower.text = data.lower
     }
